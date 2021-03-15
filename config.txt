@@ -1,0 +1,18 @@
+{
+			module: "MMM-Asset-Portfolio",
+			position: "top_bar",
+			config: {
+				apiKey: "Z7QJQLMUY8Y36K1M",
+				stocks: [
+					// { name: "BASF", symbol: "BAS.DE", quantity: 10 },
+					// { name: "SAP", symbol: "SAP.DE", quantity: 15 },
+					// { name: "Henkel", symbol: "HEN3.DE" },
+					// { name: "Alibaba", symbol: "BABA"}
+				],
+				crypto: [
+					{ name: "Bitcoin", symbol: "BTC", quantity: 5 }
+					//  { name: "Ethereum", symbol: "ETH", quantity: 15 },
+					//  { name: "Litecoin", symbol: "LTC", quantity: 50 }
+				],
+			}
+		},
