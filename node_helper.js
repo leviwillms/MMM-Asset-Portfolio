@@ -14,6 +14,8 @@ module.exports = NodeHelper.create({
         stocks: [/*"BTC": 15000*/]
     },
     assetsProcessed: 0,
+    cryptoProcessed: 0,
+    stocksProcessed: 0,
 
     /**
      * 
@@ -125,8 +127,10 @@ module.exports = NodeHelper.create({
                     });
                     //console.log(retreivedCrypto);
                     //console.log(config.crypto[assetsProcessed].name);
+                    console.log(config.crypto.length);
                     self.assetsProcessed += 1;
-                    if (self.assetsProcessed === config.crypto.length) {
+                    self.cryptoProcessed += 1;
+                    if (self.cryptoProcessed === config.crypto.length) { //this conditional statement is why I cant do both at the same time.
                         console.log("Sending crypto results: " + self.retreivedCrypto);
                         self.sendSocketNotification("CRYPTO_RESULT", self.retreivedCrypto);
                     }
@@ -151,7 +155,10 @@ module.exports = NodeHelper.create({
                     //console.log(retreivedCrypto);
                     //console.log(config.crypto[assetsProcessed].name);
                     self.assetsProcessed += 1;
-                    if (self.assetsProcessed === config.stocks.length) {
+                    self.stocksProcessed += 1;
+                    console.log(self.stocksProcessed +" STOCKS PROCESSED");
+                    console.log(config.stocks.length);
+                    if (self.stocksProcessed === config.stocks.length) {
                         //console.log("test");
                         console.log(self.retreivedStocks);
                         self.sendSocketNotification("STOCK_RESULT", self.retreivedStocks);

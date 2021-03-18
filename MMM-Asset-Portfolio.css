@@ -1,3 +1,6 @@
+.MMM-Asset-Portfolio {
+    font-size: large;
+}
 .MMM-Asset-Portfolio> tr {
     padding-bottom: 8px;
 }
@@ -6,14 +9,6 @@
     padding-left: 32px;
     padding-bottom: 5px;
 }
-
-.mmm-cryptocurrency-icon > tr > td > img, span{
-    vertical-align: middle;
-}
-.mmm-cryptocurrency-icon > tr > td {
-    padding-bottom: 10px;
-    text-align: right;
-}
 .MMM-Asset-Portfolio tr.header-row th {
     border-bottom: 1px solid #666;
     padding-bottom: 5px;
@@ -21,4 +16,15 @@
 }
 .MMM-Asset-Portfolio *:first-child {
     padding-left: 0;
+    /* text-align: left; */
+}
+ .MMM-Asset-Portfolio tr.total-row td.total-0{
+    text-align: center;
+    border-bottom: 1px solid #666;
+    border-top: 1px solid #666;
+}
+.MMM-Asset-Portfolio tr.total-row td.total-1{
+    text-align: center;
+    border-bottom: 1px solid #666;
+    border-top: 1px solid #666;
 }
