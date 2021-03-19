@@ -1,5 +1,5 @@
 # MMM-Asset-Portfolio
-A <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> that utilizes the Alpha Vantage API to track the price of cryptocurrencies and stocks to then be added to a portfolio total.
+A <a href="https://github.com/MichMich/MagicMirror">MagicMirror²</a> module that utilizes the Alpha Vantage API to track the price of cryptocurrencies and stocks to then be added to a portfolio total.
 
 ## Example
 
