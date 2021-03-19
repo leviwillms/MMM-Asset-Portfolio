@@ -21,7 +21,7 @@ Here is an example config to insert into `config.js`
 ```
 {
 	module: "MMM-Asset-Portfolio",
-		position: "top_bar",
+		position: "bottom_right",
 		config: {
 			apiKey: "Z7QJQLMUY8Y36K1M",
 			stocks: [
