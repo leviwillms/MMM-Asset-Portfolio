@@ -18,7 +18,7 @@ A <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> that utilize
 |`Stocks`|The stocks you want to display.<br>**Type:** `JSON array`<br>**Properties:** <br>**Name:**`The name of the stock you wish to display.`<br>**Symbol:**`The symbol of the stock you wish to display.`<br>**Quantity:**`The amount of the stock you own.`<br>**Default:**<i>[`{ name: "Tesla", symbol: "TSLA", quantity: 1}, { name: "Apple", symbol: "AAPL", quantity: 1}, { name: "Amazon", symbol: "AMZN", quantity: 1 }`]</i>|
 |`Crypto`|The cryptocurrencies you want to display.<br>**Type:** `JSON array`<br>**Properties:** <br>**Name:**`The name of the crypto you wish to display.`<br>**Symbol:**`The symbol of the crypto you wish to display.`<br>**Quantity:**`The amount of the crypto you own.`<br>**Default:**<i>[`{ name: "Bitcoin", symbol: "BTC", quantity: 1 },{ name: "Ethereum", symbol: "ETH", quantity: 1 }`]</i>|
 
-Here is an example config in `config.js`
+Here is an example config to insert into `config.js`
 ```
 {
 	module: "MMM-Asset-Portfolio",
@@ -27,8 +27,8 @@ Here is an example config in `config.js`
 			apiKey: "Z7QJQLMUY8Y36K1M",
 			stocks: [
 				{ name: "Tesla", symbol: "TSLA", quantity: 1},
-            	{ name: "Apple", symbol: "AAPL", quantity: 1},
-                { name: "Amazon", symbol: "AMZN", quantity: 1 }
+            	    { name: "Apple", symbol: "AAPL", quantity: 1},
+                    { name: "Amazon", symbol: "AMZN", quantity: 1 }
 			],
 			crypto: [
 				{ name: "Bitcoin", symbol: "BTC", quantity: 5 },
@@ -45,12 +45,7 @@ Here is an example config in `config.js`
 - The Alpha Vantage API call limitiations are 5/minute and 500/day.
 
 ### Feedback
-This is my first crack at building a Magic Mirror Module, there is still much to do in terms of optimization and additional features. This initial release is to be primarily to show in my capstone project for school. I plan to continue to work on this project, so please leave any feedback you can think on in the forum. Thank you!
-
-
-
-
-
+This is my first crack at building a Magic Mirror Module, there is still much to do in terms of optimization and additional features. This initial release is primarily to show as a part of my capstone project for my diploma. I plan to continue to work on this project, so please leave any feedback you can think in the forum. Thank you!
 
 The MIT License (MIT)
 =====================

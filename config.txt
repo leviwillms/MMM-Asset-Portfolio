@@ -9,8 +9,8 @@
                     { name: "Amazon", symbol: "AMZN", quantity: 1 }
 				],
 				crypto: [
-					{ name: "Bitcoin", symbol: "BTC", quantity: 5 },
-					{ name: "Ethereum", symbol: "ETH", quantity: 15 }
+					{ name: "Bitcoin", symbol: "BTC", quantity: 1 },
+					{ name: "Ethereum", symbol: "ETH", quantity: 1 }
 				],
 			}
 		},
