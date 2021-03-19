@@ -27,8 +27,8 @@ Here is an example config to insert into `config.js`
 			apiKey: "Z7QJQLMUY8Y36K1M",
 			stocks: [
 				{ name: "Tesla", symbol: "TSLA", quantity: 1},
-            	            { name: "Apple", symbol: "AAPL", quantity: 1},
-                            { name: "Amazon", symbol: "AMZN", quantity: 1 }
+            	                { name: "Apple", symbol: "AAPL", quantity: 1},
+                                { name: "Amazon", symbol: "AMZN", quantity: 1 }
 			],
 			crypto: [
 				{ name: "Bitcoin", symbol: "BTC", quantity: 5 },
