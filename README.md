@@ -2,10 +2,9 @@
 A <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> that utilizes the Alpha Vantage API to track the price of cryptocurrencies and stocks to then be added to a portfolio total.
 
 ## Features
-1. Get data for any currency (Coins and Tokens) listed on [Ahpha Vantage](https://www.alphavantage.co)
-2. Automatic download of currency logos
-3. Line graph of value changes over 1 day, 1 week, or 1 month
-4. Simple built-in view selection with highly customizable view configuration
+1. Get data for any asset (Stocks or Cryptocurrency) listed on [Ahpha Vantage](https://www.alphavantage.co)
+2. Compilation of retreived assets
+3. Display of total portfolio worth (Currently only in CAD)
 
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/leviwillms/MMM-Asset-Portfolio.git`.
@@ -43,6 +42,7 @@ Here is an example config to insert into `config.js`
 - Due to API call limits if you wish to display both Crypto + Stocks you can only display a **maximum** limit of 5 assets. However, if you only choose to display one asset class all you enter into the config will be display, it will just add a 1 minute loading time for every additional 5 assets in the config after the additional 5.
 - To keep within Alpha Vantage API call limites the update interval has been set to 30 minutes. This will be properly optimized in the future, along with the above issue adressed.
 - The Alpha Vantage API call limitiations are 5/minute and 500/day.
+- **IMPORTANT** Unfortunately with the way I have currently created the module the prices are only able to be displayed and retreived in Canadian Dollars (CAD). This is obviously a big down side and it will be one of my main priorities as I continue development of this module. 
 
 ### Feedback
 This is my first crack at building a Magic Mirror Module, there is still much to do in terms of optimization and additional features. This initial release is primarily to show as a part of my capstone project for my diploma. I plan to continue to work on this project, so please leave any feedback you can think in the forum. Thank you!
