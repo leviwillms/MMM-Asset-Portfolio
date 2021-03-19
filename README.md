@@ -2,7 +2,7 @@
 A <a href="https://github.com/MichMich/MagicMirror">MagicMirror²</a> module that utilizes the Alpha Vantage API to track the price of cryptocurrencies and stocks to then be added to a portfolio total.
 
 ## Example
-![Screen shot of Asset Tracking Module](/MMM-Asset-Portfolio.png?raw=true "Example screenshot")
+![Screen shot of Asset Tracking Module](/MMM-Asset-Portfolio.PNG?raw=true "Example screenshot")
 ## Features
 1. Get data for any asset (Stocks or Cryptocurrency) listed on [Ahpha Vantage](https://www.alphavantage.co)
 2. Compilation of retreived assets
