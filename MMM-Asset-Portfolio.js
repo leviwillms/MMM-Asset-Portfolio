@@ -12,15 +12,14 @@
     defaults: {
         header: "MMM-Asset-Portfolio",
         stocks: [
-            { name: "Tesla", symbol: "TSLA" },
-            { name: "AbbVie", symbol: "4AB.DE" },
-            { name: "Alibaba", symbol: "BABA", quantity: 10 }
+            { name: "Tesla", symbol: "TSLA", quantity: 1},
+            { name: "Apple", symbol: "AAPL", quantity: 1},
+            { name: "Amazon", symbol: "AMZN", quantity: 1 }
         ],
         crypto: [
             { name: "Bitcoin", symbol: "BTC", quantity: 1 },
             { name: "Ethereum", symbol: "ETH", quantity: 1 }
         ],
-        defaultCurrency: "CAD",
         baseURL: "https://www.alphavantage.co/",
         apiKey: "",
     },
