@@ -42,31 +42,33 @@ Here is an example config to insert into `config.js`
 - Due to API call limits if you wish to display both Crypto + Stocks you can only display a **maximum** limit of 5 assets. However, if you only choose to display one asset class all you enter into the config will be display, it will just add a 1 minute loading time for every additional 5 assets in the config after the additional 5.
 - To keep within Alpha Vantage API call limites the update interval has been set to 30 minutes. This will be properly optimized in the future, along with the above issue adressed.
 - The Alpha Vantage API call limitiations are 5/minute and 500/day.
-- **IMPORTANT** Unfortunately with the way I have currently created the module the prices are only able to be displayed and retreived in Canadian Dollars (CAD). This is obviously a big down side and it will be one of my main priorities as I continue development of this module. 
+- **IMPORTANT:** Unfortunately with the way I have currently created the module the prices are only able to be displayed and retreived in Canadian Dollars (CAD). This is obviously a big down side and it will be one of my main priorities as I continue development of this module. 
 
 ### Feedback
 This is my first crack at building a Magic Mirror Module, there is still much to do in terms of optimization and additional features. This initial release is primarily to show as a part of my capstone project for my diploma. I plan to continue to work on this project, so please leave any feedback you can think in the forum. Thank you!
 
-The MIT License (MIT)
+MIT License
 =====================
 
 Copyright © 2021 Levi Willms
 
-Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software and associated documentation
-files (the “Software”), to deal in the Software without
-restriction, including without limitation the rights to use,
-copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the
-Software is furnished to do so, subject to the following
-conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be
 included in all copies or substantial portions of the Software.
 
-**The software is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability,
-fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability,
-whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.**
+**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.**
 
 
 
