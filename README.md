@@ -1,6 +1,8 @@
 # MMM-Asset-Portfolio
 A <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> that utilizes the Alpha Vantage API to track the price of cryptocurrencies and stocks to then be added to a portfolio total.
 
+## Example
+
 ## Features
 1. Get data for any asset (Stocks or Cryptocurrency) listed on [Ahpha Vantage](https://www.alphavantage.co)
 2. Compilation of retreived assets
@@ -14,7 +16,11 @@ A <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> that utilize
 |Option|Description|
 |---|---|
 |`apikey`|MANDATORY: API key from [Alpha Vantage](https://www.alphavantage.co/).<br>**Type:** `string`|
-|`Stocks`|The stocks you want to display.<br>**Type:** `JSON array`<br>**Properties:** <br>**Name:**`The name of the stock you wish to display.`<br>**Symbol:**`The symbol of the stock you wish to display.`<br>**Quantity:**`The amount of the stock you own.`<br>**Default:**<i>[`{ name: "Tesla", symbol: "TSLA", quantity: 1}, { name: "Apple", symbol: "AAPL", quantity: 1}, { name: "Amazon", symbol: "AMZN", quantity: 1 }`]</i>|
+|`Stocks`|The stocks you want to display.<br>**Type:** `JSON array`<br>**Properties:** <br>
+-   **Name:**The name of the stock you wish to display.<br>
+-   **Symbol:**The symbol of the stock you wish to display.<br>
+-   **Quantity:**The amount of the stock you own.<br>
+-   **Default:**<i>[{ name: "Tesla", symbol: "TSLA", quantity: 1}, { name: "Apple", symbol: "AAPL", quantity: 1}, { name: "Amazon", symbol: "AMZN", quantity: 1 }]</i>|
 |`Crypto`|The cryptocurrencies you want to display.<br>**Type:** `JSON array`<br>**Properties:** <br>**Name:**`The name of the crypto you wish to display.`<br>**Symbol:**`The symbol of the crypto you wish to display.`<br>**Quantity:**`The amount of the crypto you own.`<br>**Default:**<i>[`{ name: "Bitcoin", symbol: "BTC", quantity: 1 },{ name: "Ethereum", symbol: "ETH", quantity: 1 }`]</i>|
 
 Here is an example config to insert into `config.js`
@@ -36,7 +42,7 @@ Here is an example config to insert into `config.js`
 		}
 },
 ```
-### Example
+
 
 ### Notes
 - Due to API call limits if you wish to display both Crypto + Stocks you can only display a **maximum** limit of 5 assets. However, if you only choose to display one asset class all you enter into the config will be display, it will just add a 1 minute loading time for every additional 5 assets in the config after the additional 5.
