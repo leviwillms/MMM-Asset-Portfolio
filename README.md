@@ -16,7 +16,7 @@ A <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> that utilize
 |Option|Description|
 |---|---|
 |`apikey`|MANDATORY: API key from [Alpha Vantage](https://www.alphavantage.co/).<br>**Type:** `string`|
-|`Stocks`|The stocks you want to display.<br>**Type:** `JSON array`<br>**Properties:** <br>**Name:**The name of the stock you wish to display.<br>**Symbol:**The symbol of the stock you wish to display.<br>**Quantity:**The amount of the stock you own.<br>**Default:**<i>[{ name: "Tesla", symbol: "TSLA", quantity: 1}, { name: "Apple", symbol: "AAPL", quantity: 1}, { name: "Amazon", symbol: "AMZN", quantity: 1 }]</i>|
+|`Stocks`|The stocks you want to display.<br>**Type:** `JSON array`<br>**Properties:** <br>**Name:**`The name of the stock you wish to display.`<br>**Symbol:**`The symbol of the stock you wish to display.`<br>**Quantity:**`The amount of the stock you own.`<br>**Default:**<i>[`{ name: "Tesla", symbol: "TSLA", quantity: 1}, { name: "Apple", symbol: "AAPL", quantity: 1}, { name: "Amazon", symbol: "AMZN", quantity: 1 }`]</i>|
 |`Crypto`|The cryptocurrencies you want to display.<br>**Type:** `JSON array`<br>**Properties:** <br>**Name:**`The name of the crypto you wish to display.`<br>**Symbol:**`The symbol of the crypto you wish to display.`<br>**Quantity:**`The amount of the crypto you own.`<br>**Default:**<i>[`{ name: "Bitcoin", symbol: "BTC", quantity: 1 },{ name: "Ethereum", symbol: "ETH", quantity: 1 }`]</i>|
 
 Here is an example config to insert into `config.js`
